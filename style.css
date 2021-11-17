@@ -1,0 +1,10 @@
+html{
+    /* Any time you add padding to any element, that padding will stretch the page => prevents padding from adding extra width or extra height to the page */
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* So that the content of the page takes the full page in height even if it's smaller */
+    min-height: 100vh; 
+}
